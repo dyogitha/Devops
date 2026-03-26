@@ -22,5 +22,5 @@ jobs:
         run: echo "my pipeline step2"
 
       - name: pipeline break
-        run: exit 1
+        run: echo "fixed pipeline"
 
